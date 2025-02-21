@@ -1,0 +1,75 @@
+*{margin: 0; padding: 0;}
+.sectotkr{ height: 100vh; }
+h3{margin-top: 4rem; margin-left: 15rem;}
+p{font-size: 1.1rem;
+overflow-wrap: break-word;
+text-indent: 20px;
+}
+img{height: auto;}
+.navbar-brand:hover{color: greenyellow;}
+.obortxt{ margin-left: 10px; margin-right: 10px; }
+/* .podgrpc{font-size: large;  text-align: center;} */
+.pribliz{transition: all 2s ease;
+}
+.pribliz:hover{  /* transform: skew(45deg,45deg); */
+    z-index: 3;
+    scale: 2.4;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+.pribliz2{transition: all 2s ease;   z-index: 3;
+}
+.pribliz2:hover{ 
+    z-index: 3;
+    scale: 2.2;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    /* transform: scale(1.8) translate(0,50%); */
+    /* position: absolute; */
+    /* transition: height .4s ease-in-out; */
+}
+ul.kv{ list-style-type: square; list-style-position: inside;}
+/* #particles-js{ height: 500vh; z-index: 2; } */
+#kartamira1{ background-color: rgb(6, 6, 57); }
+#kolumb1{ background-color: aquamarine;
+padding-left: 4px; padding-right: 6px; }
+#kolumb2{ background-color: aquamarine }
+#kolumb3{ background-color: aquamarine }
+#magelan1{ background-color: bisque }
+#magelan2{ background-color: bisque }
+#dreik1{ background-color: gainsboro; }
+#dreik2{ background-color: gainsboro }
+#kukdzms1{ background-color: beige }
+#kukdzms2{ background-color: beige; }
+#kukdzms3{ background-color: beige }
+#kukdzms4{ background-color: beige }
+#kartamira2{ background-color: rgb(220, 219, 219);
+padding-top: 4.2rem;}
+#kartamira3{ background-color: black;
+padding-top: 4.2rem; }
+.opismorep
+{ display: block;
+background-color: rgb(30, 7, 57);
+color: white;
+margin: -2.4rem 1rem 3rem 1rem;
+position: absolute;
+align-items: center;
+border: 3px solid rgb(35, 101, 22);
+border-radius: 1rem;
+}
+
+*{
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* .kartamira{
+background-size: cover;  
+background-position: center;
+background-attachment: fixed;
+} */
